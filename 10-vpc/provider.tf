@@ -8,7 +8,7 @@ terraform {
 
   backend "s3" {
     bucket = "81s-aswini-devops"
-    key    = "expense-vpcc"
+    key    = "expense2"
     region = "us-east-1"
     dynamodb_table = "81s-locking"
   }
